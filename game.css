@@ -3,4 +3,15 @@
     grid-template-columns: auto auto auto auto;
     width:400px;
     height:300px;
+    margin-right: 30vh;
+}
+h1{
+    color:purple;
+    background-color:peachpuff;
+    height: 10vh;
+    margin-top: auto;
+}
+h3{
+    color:rebeccapurple;
+  
 }
