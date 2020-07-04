@@ -3,51 +3,51 @@ document.addEventListener('DOMContentLoaded', () => {
     const cardArray = [
       {
         name: 'cake',
-        img: 'cake1.jpg'
+        img: 'images/cake1.jpg'
       },
       {
         name: 'cheese',
-        img: 'cheese1.jpg'
+        img: 'images/cheese1.jpg'
       },
       {
         name: 'ice-cream',
-        img: 'icecream1.jpg'
+        img: 'images/icecream1.jpg'
       },
       {
         name: 'pizza',
-        img: 'pizza1.jpg'
+        img: 'images/pizza1.jpg'
       },
       {
         name: 'lollipop',
-        img: 'lollipop1.jpg'
+        img: 'images/lollipop1.jpg'
       },
       {
         name: 'hotdog',
-        img: 'hotdog1.jpg'
+        img: 'images/hotdog1.jpg'
       },
       {
         name: 'cake',
-        img: 'cake1.jpg'
+        img: 'images/cake1.jpg'
       },
       {
         name: 'cheese',
-        img: 'cheese1.jpg'
+        img: 'images/cheese1.jpg'
       },
       {
         name: 'ice-cream',
-        img: 'icecream1.jpg'
+        img: 'images/icecream1.jpg'
       },
       {
         name: 'pizza',
-        img: 'pizza1.jpg'
+        img: 'images/pizza1.jpg'
       },
       {
         name: 'lollipop',
-        img: 'lollipop1.jpg'
+        img: 'images/lollipop1.jpg'
       },
       {
         name: 'hotdog',
-        img: 'hotdog1.jpg'
+        img: 'images/hotdog1.jpg'
       }
       
     ]
@@ -78,12 +78,12 @@ document.addEventListener('DOMContentLoaded', () => {
       const optionTwoId = cardsChosenId[1]
       if (cardsChosen[0] === cardsChosen[1]) {
         alert('You found a match')
-        cards[optionOneId].setAttribute('src', 'blank1.jpg')
-        cards[optionTwoId].setAttribute('src', 'blank1.jpg')
+        cards[optionOneId].setAttribute('src', 'images/blank1.jpg')
+        cards[optionTwoId].setAttribute('src', 'images/blank1.jpg')
         cardsWon.push(cardsChosen)
       } else {
-        cards[optionOneId].setAttribute('src', 'back1.jpg')
-        cards[optionTwoId].setAttribute('src', 'back1.jpg')
+        cards[optionOneId].setAttribute('src', 'images/back1.jpg')
+        cards[optionTwoId].setAttribute('src', 'images/back1.jpg')
         alert('Sorry, try again')
       }
       cardsChosen = []
